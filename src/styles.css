@@ -1,1 +1,163 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body,
+app-root {
+	background: lightgray;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font: 18px Georgia;
+	--primary: rgb(63, 80, 83);
+	--brown: rgba(146, 140, 83, 0.603);
+	--white: white;
+	--bg: lightgray;
+	--shadow: rgba(0, 0, 0, 0.2);
+}
+
+app-root {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	background: url("./assets/images/banner.jpg") center var(--bg) no-repeat;
+	background-color: var(--brown);
+	background-size: contain;
+}
+
+h1 {
+	font: 72px Times;
+	color: var(--primary);
+	text-shadow: 0 0 3px var(--white);
+	padding: 89px 0;
+	/* (250 - 72) / 2 */
+	text-align: center;
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+	background: var(--primary);
+	padding: 5px 0;
+	text-align: center;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+}
+
+nav > ul > li ~ li {
+	border-left: 1px solid var(--white);
+}
+
+nav a {
+	display: block;
+	padding: 15px;
+	color: var(--white);
+	text-decoration: none;
+}
+
+li > ul {
+	display: none;
+}
+
+li:hover > ul {
+	position: absolute;
+	display: block;
+	min-width: 100%;
+	font-size: 0.5em;
+}
+
+li:hover > ul > li {
+	display: block;
+	border-top: 1px solid var(--white);
+	margin: 0 5px;
+}
+
+main {
+	text-align: center;
+	flex: 1 0 auto;
+	margin: 10px;
+}
+
+article {
+	text-align: left;
+	display: inline-block;
+	background: var(--white);
+	padding: 10px;
+	border-radius: 5px;
+	max-width: 80vw;
+	min-width: 60vw;
+	margin: 10px auto;
+	box-shadow: 0 4px 8px 0 var(--shadow);
+}
+
+.center {
+	text-align: center;
+}
+
+img {
+	max-width: 90vw;
+	max-height: 90vh;
+	border: 2px solid var(--primary);
+}
+
+.smallImg {
+	max-height: 40vh;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	margin: 5px;
+	background: var(--white);
+	box-shadow: 0 4px 8px 0 var(--shadow);
+}
+
+.card > div {
+	text-align: center;
+	padding: 10px 20px;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+/* table,
+th,
+td {
+	border: 1px solid rgb(54, 54, 105);
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+th {
+	background-color: rgb(54, 54, 105);
+	color: floralwhite;
+} */
+
+app-footer {
+	display: block;
+	width: 100%;
+	padding: 25px;
+	background: var(--primary);
+	color: var(--white);
+	flex-shrink: 0;
+	box-sizing: border-box;
+	text-align: center;
+}

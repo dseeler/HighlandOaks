@@ -1,18 +1,41 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { HomeComponent } from "./home/home.component";
+import { AboutComponent } from "./about/about.component";
+import { HOADocumentsComponent } from "./hoadocuments/hoadocuments.component";
+import { NewslettersComponent } from "./newsletters/newsletters.component";
+import { PhotosComponent } from "./photos/photos.component";
+import { CommitteesComponent } from "./committees/committees.component";
+import { InformationComponent } from "./information/information.component";
+import { EventsComponent } from "./events/events.component";
+import { FooterComponent } from "./footer/footer.component";
+import { GalleryComponent } from "./gallery/gallery.component";
+import { HouseDecorationComponent } from "./events/housedecoration/housedecoration.component";
+import { RepaintingComponent } from './events/repainting/repainting.component';
+import { July4th2018Component } from './events/july4th2018/july4th2018.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		HomeComponent,
+		AboutComponent,
+		HOADocumentsComponent,
+		NewslettersComponent,
+		PhotosComponent,
+		CommitteesComponent,
+		InformationComponent,
+		EventsComponent,
+		FooterComponent,
+		GalleryComponent,
+		HouseDecorationComponent,
+		RepaintingComponent,
+		July4th2018Component
+	],
+	imports: [BrowserModule, AppRoutingModule],
+	providers: [],
+	bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

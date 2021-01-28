@@ -1,0 +1,16 @@
+<header>
+  <div class="banner">
+    <!-- <h1>Highland Oaks</h1> -->
+  </div>
+</header>
+<nav>
+  <ul>
+    <li *ngFor="let route of navRoutes">
+      <a [routerLink]="route.path">{{ route.data.navLabel }}</a>
+    </li>
+  </ul>
+</nav>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<app-footer></app-footer>

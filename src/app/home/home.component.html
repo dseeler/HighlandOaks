@@ -1,0 +1,5 @@
+<article *ngFor="let ann of annoucements">
+  <h5>{{ ann.date }}</h5>
+  <h2>{{ ann.title }}</h2>
+  <div [innerHTML]="ann.html"></div>
+</article>
