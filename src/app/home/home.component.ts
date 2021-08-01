@@ -14,6 +14,75 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "7/2/21",
+			title: `Reminder for Independence Day Celebrations`,
+			html: `
+			<p>
+				In order to keep fireworks debris out of the pool and the tennis area, and to avoid any fire hazard to our buildings please DO NOT use any fireworks in the common areas around the pool and tennis area, or in the parking lot. Fireworks in those areas are prohibited. 
+			</p>
+			<p>
+				Thank you for your cooperation.
+			</p>
+			`
+		},
+		{
+			date: "5/2/21",
+			title: `POA Presentation`,
+			html: `
+			<p>
+				We have added the POA information documents to the documents tab. Please email AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> if you have any questions.
+				<br />
+				Thank you!
+			</p>
+			`
+		},
+		{
+			date: "4/28/21",
+			title: `POA Informational Meeting`,
+			html: `
+			<p>
+				Dear Highland Oaks Residents,
+			</p>
+			<p>
+				Our POA informational meeting is this Saturday, May 1, at 10:00am. Please review the Amendments and Consent form under the documents tab. If you have any questions that you would like addressed during the meeting, please email them to <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>. The link for the zoom meeting is below. We hope to see you then. 
+			</p>
+			<p>
+				<a href="https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09">https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09</a>
+			</p>
+			`
+		},
+		{
+			date: "3/25/21",
+			title: `Updated Forms are available`,
+			html: `
+			<p>
+				Dear Neighbors,
+			</p>
+			<p>
+				Happy Spring! Now that the weather is warmer, many residents are making changes to the exterior of their homes. Please remember that ANY exterior change, such as painting, changing your landscaping, or adding a fence requires a Modification Request Form to be submitted to our Architectural Review Committee. For your convenience, the MRF is available under the documents tab. The very helpful ARC Guidelines and the Covenant Highlights are also available. Please review these documents as they have recently been updated.
+			</p>
+			<p>
+				If you have any questions, please reach out to our AMAG (our management company) at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> or 678-407-1115.
+			</p>
+			<p>
+				Thank you!
+			</p>
+			`
+		},
+		{
+			date: "2/13/21",
+			title: `HOA 2020 Recap`,
+			html: `
+			<p>
+				Did you miss the annual meeting? If so, the slide presentation is available under the documents tab.
+				The association will send out the POA and other amendment documentation at a later date. 
+			</p>
+			<p>
+				Thank you again for attending the annual meeting.
+			</p>
+			`
+		},
+		{
 			date: "1/10/21",
 			title: `Highland Oaks Annual Homeowners’ Meeting
 			Saturday, February 13, 2021 at 11:00 am

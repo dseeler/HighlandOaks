@@ -1,5 +1,6 @@
 import { Routes } from "@angular/router";
 import { AboutComponent } from "./about/about.component";
+import { CalendarComponent } from "./calendar/calendar.component";
 import { CommitteesComponent } from "./committees/committees.component";
 import { EventsComponent } from "./events/events.component";
 import { HouseDecorationComponent } from "./events/housedecoration/housedecoration.component";
@@ -18,6 +19,11 @@ export const routes: Routes = [
 		path: "HOADocuments",
 		component: HOADocumentsComponent,
 		data: { navLabel: "HOA Documents" }
+	},
+	{
+		path: "Calendar",
+		component: CalendarComponent,
+		data: { navLabel: "Calendar" }
 	},
 	{
 		path: "Newsletters",

@@ -16,6 +16,7 @@ import { GalleryComponent } from "./gallery/gallery.component";
 import { HouseDecorationComponent } from "./events/housedecoration/housedecoration.component";
 import { RepaintingComponent } from './events/repainting/repainting.component';
 import { July4th2018Component } from './events/july4th2018/july4th2018.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
 	declarations: [
@@ -32,7 +33,8 @@ import { July4th2018Component } from './events/july4th2018/july4th2018.component
 		GalleryComponent,
 		HouseDecorationComponent,
 		RepaintingComponent,
-		July4th2018Component
+		July4th2018Component,
+		CalendarComponent
 	],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],
