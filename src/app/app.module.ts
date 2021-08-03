@@ -17,6 +17,8 @@ import { HouseDecorationComponent } from "./events/housedecoration/housedecorati
 import { RepaintingComponent } from './events/repainting/repainting.component';
 import { July4th2018Component } from './events/july4th2018/july4th2018.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { EasterColoringContest2021Component } from './events/easter-coloring-contest2021/easter-coloring-contest2021.component';
+import { MovieNight2021Component } from './events/movie-night2021/movie-night2021.component';
 
 @NgModule({
 	declarations: [
@@ -34,7 +36,9 @@ import { CalendarComponent } from './calendar/calendar.component';
 		HouseDecorationComponent,
 		RepaintingComponent,
 		July4th2018Component,
-		CalendarComponent
+		CalendarComponent,
+		EasterColoringContest2021Component,
+		MovieNight2021Component
 	],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],

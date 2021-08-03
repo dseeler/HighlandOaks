@@ -31,9 +31,7 @@ app-root {
 h1 {
 	font: 72px Times;
 	color: var(--primary);
-	text-shadow: 0 0 3px var(--white);
-	padding: 89px 0;
-	/* (250 - 72) / 2 */
+	text-shadow: 0 0 3px var(--shadow);
 	text-align: center;
 	margin: 0;
 }

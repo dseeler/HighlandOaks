@@ -14,6 +14,28 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "7/19/21",
+			title: `Summer Movie Night`,
+			html: `
+			<p>
+				Dear neighbors,<br />
+				Join us in ending the summer with snow cones and movie night on the lawn! 
+				The first 50 people get a FREE snow cone! 
+				Bring a chair and a warm blanket to watch Disney’s Jungle Cruise (Rated PG-13). 
+				There will be chalk to decorate the parking lot and bubbles while the snow cone truck is here! 			
+			</p>
+			<p>
+				Snow Cone Truck time: 7-8PM
+				Movie will promptly start at 8PM.
+			</p>
+			<p>
+				Can’t wait to see everyone!<br />
+				<strong>Highland Oaks Social Committee</strong>
+			</p>
+			<img src="assets/images/announcements/movienight.png" />
+			`
+		},
+		{
 			date: "7/2/21",
 			title: `Reminder for Independence Day Celebrations`,
 			html: `
@@ -22,6 +44,94 @@ export class HomeComponent implements OnInit {
 			</p>
 			<p>
 				Thank you for your cooperation.
+			</p>
+			`
+		},
+		{
+			date: "6/18/21",
+			title: `Mailbox Violations Reminder`,
+			html: `
+			<p>
+			Hello Homeowners,<br />
+			Just an FYI that AMAG will begin looking for mailbox violations next month. We want to remind everyone of the deal that Southern Painting is offering to our residents. (See below that was in the Spring newsletter). This special price is being extended through the end of June. We need a minimum of 10 homeowners to book this service for them to send a painter here.<br />
+			Thank you!
+			</p>
+			<p>
+				Need mailbox parts? <a href="https://mymailboxorder.com/hghldoaks/?fbclid=IwAR14NS3pDDLXbOa9eGmjXz_S8O0eWFdg-w0v7RZEXlvVs639lAKzNndSkhM">https://mymailboxorder.com/hghldoaks/</a><br />
+				Need brass numbers? <a href="https://addressesofdistinction.com/product/two-inch-williamsburg-brass-numbers/?fbclid=IwAR0a0kr_glIUa_R6IvfhNdykpEmBcAEttsOzzh6bLgpJGPchmf9VDNQNFx8">https://addressesofdistinction.com/.../two-inch.../</a><br />
+				Southern Painting: <a href="http://www.southernpaintingllc.com/?fbclid=IwAR0f-EY_gJAwyFPHbSsu2Ffu9giTDnaIcBAbyzk4lLF5je9SB_Tw8NCyBZk">http://www.southernpaintingllc.com/</a> or 770-523-4470			
+			</p>
+			<p>
+				May is mailbox maintenance month!
+				If your mailbox needs painting, Southern Painting is offering a bulk rate discount to Highland Oaks
+				homeowners. They will repaint your mailbox with flat spray paint for $35 (should be refreshed yearly) or for $60
+				they will use an industrial enamel based paint that should last for 4 to 5 years.
+				Please contact them at 770-523-4470 to schedule your service. This offer will expire on May 30th. If you choose
+				to refresh your paint yourself, remember to use flat black spray paint.
+			</p>
+			`
+		},
+		{
+			date: "5/14/21",
+			title: `Pool Opening`,
+			html: `
+			<p>
+				Dear Highland Oaks Residents,
+			</p>
+			<p>
+				Welcome to the 2021 Pool Season! The pool will be opening tomorrow, May 15 at 10:00am. Please take a moment to review the attached rules. There are a few notable changes for this year:
+			</p>
+			<ul>
+				<li>You are no longer required to sign-in</li>
+				<li>We are no longer following the covid-19 restrictions from last season</li>
+				<li>You are again allowed to have up to 5 guests</li>
+				<li>Please maintain social distancing as others may not be comfortable and/or vaccinated</li>
+				<li>Have fun and be safe!</li>
+			</ul>
+			<p>
+				If you have any questions or an issue with your key card, please contact AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> or 678-407-1115.<br />
+				Thank you,<br />
+				The Highland Oaks Pool Committee
+			</p>
+			`
+		},
+		{
+			date: "5/12/21",
+			title: `Volunteers Needed`,
+			html: `
+			<p>
+				Hello neighbors,
+			</p>
+			<img src="assets/images/announcements/adoptaroad.jpg" />
+			<p>
+				CLEANING NUMBER 2, Saturday May 15th. MARK THE NEXT ONES IN YOUR CALENDARS: 
+			</p>
+			<p>
+				August 14th <br />
+				November 13th
+			</p>
+			<p>
+				If weather is not permitting the cleaning we will move the date by one week, please check the e-mail from the Association and the posting on the Facebook page.
+			</p>
+			<p>
+				We will meet at the pavilion at 8 AM and pick up trash between Buford Drive and Azalea through the Gwinnett Clean & Beautiful’ s Adopt-a-Road Program. 
+				You get to meet old and new neighbors, have a nice workout and keep Ridge Road look nice AND you can proudly say you did something for your neighborhood.
+			</p>
+			<p>
+				If you are in High school you can earn some community service hours. Please make sure to bring your school’s form.
+			</p>
+			<p>
+				Please note that due to the program guidelines, children under 12 are not permitted to participate for safety reasons.
+			</p>
+			<p>
+				Please let me know if you can make it so we have enough supplies. Sign up by e-mail at <a href="mailto:guido.walther@alvetern.com">guido.walther@alvetern.com</a>   
+				(we'll have bags and vests please make sure to wear sturdy shoes and bring a pair of gloves).
+			</p>
+			<p>
+				We're looking forward seeing you again and would love to see new faces…
+			</p>
+			<p>
+				Guido Walther
 			</p>
 			`
 		},
@@ -48,6 +158,40 @@ export class HomeComponent implements OnInit {
 			</p>
 			<p>
 				<a href="https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09">https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09</a>
+			</p>
+			`
+		},
+		{
+			date: "4/9/21",
+			title: `Gate Card Audit`,
+			html: `
+			<p>
+				Dear Homeowners,
+			</p>
+			<p>
+				Highland Oaks will be performing a full audit of the cards entered into the gate system this season. You will need to provide the 5-digit number that is printed on your card in order for it to be activated again. Please fill out the electronic form below to be put into the system for amenity access. Instructions on how to locate the 5-digit device number are included on the form. Note: You can also use this form to request a card if you do not have one.
+			</p>
+			<p>
+				The pool will be opening on 5/15/21.
+				<strong>If you do not have your card number submitted prior to April 25th, you may have to wait as long as 2 weeks after submitting your form for your card to be activated.</strong>
+				<br />
+				<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=1VxedePhwE6qn_GzKJyM_cAXh8zKK7tDgiSWSYN4YNlUMVIxNFJNSzFaUzJBVEw4WFBURlNQSkQySS4u">https://forms.office.com/Pages/ResponsePage.aspx?id=1VxedePhwE6qn_GzKJyM_cAXh8zKK7tDgiSWSYN4YNlUMVIxNFJNSzFaUzJBVEw4WFBURlNQSkQySS4u</a>
+			</p>
+			`
+		},
+		{
+			date: "3/29/21",
+			title: `Kids Easter Coloring Contest`,
+			html: `
+			<p>
+				Dear Neighbors,
+			</p>
+			<p>
+				Celebrate with us virtually and join us for our Kids Easter Coloring Contest! It's time to see your coloring skills.
+			</p>
+			<img src="assets/images/announcements/kideastercoloring.jpg" />
+			<p>
+				Coloring Sheets have been emailed to all residents.
 			</p>
 			`
 		},
