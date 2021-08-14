@@ -14,6 +14,47 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "8/12/21",
+			title: "Ridge Road Clean Up; Volunteers Needed",
+			html: `
+			<p>
+			Hello neighbors;
+			</p>
+			<p>
+			CLEANING NUMBER 3, Saturday August 14th.
+			</p>
+			<p>
+			MARK THE NEXT ONE IN YOUR CALENDAR:
+			</p>
+			<p>
+			<strong>November 13th</strong>
+			</p>
+			<p>
+			If weather is not permitting the cleaning we will move the date by one week, please check the e-mail from the Association and the posting on the Facebook page.
+			</p>
+			<p>
+			We will meet at the pavilion at 8 AM and pick up trash between Buford Drive and Azalea through the Gwinnett Clean & Beautiful’ s Adopt-a-Road Program. 
+			You get to meet old and new neighbors, have a nice workout and keep Ridge Road look nice AND you can proudly say you did something for your neighborhood.
+			</p>
+			<p>
+			If you are in High school you can earn some community service hours. Please make sure to bring your school’s form.
+			</p>
+			<p>
+			Please note that due to the program guidelines, children under 12 are not permitted to participate for safety reasons.
+			</p>
+			<p>
+			Please let me know if you can make it so we have enough supplies. Sign up by e-mail at <a href="mailto:guido.walther@alvetern.com">guido.walther@alvetern.com</a>  
+			(we'll have bags and vests please make sure to wear sturdy shoes and bring a pair of gloves)
+			</p>
+			<p>
+			We're looking forward seeing you again and would love to see new faces…
+			</p>
+			<p>
+			Guido Walther
+			</p>
+			`
+		},
+		{
 			date: "7/19/21",
 			title: `Summer Movie Night`,
 			html: `

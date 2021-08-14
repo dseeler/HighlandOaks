@@ -7,6 +7,7 @@ import { EventsComponent } from "./events/events.component";
 import { HouseDecorationComponent } from "./events/housedecoration/housedecoration.component";
 import { July4th2018Component } from "./events/july4th2018/july4th2018.component";
 import { MovieNight2021Component } from "./events/movie-night2021/movie-night2021.component";
+import { NewBranchTreeWayEntranceComponent } from "./events/new-branch-tree-way-entrance/new-branch-tree-way-entrance.component";
 import { RepaintingComponent } from "./events/repainting/repainting.component";
 import { HOADocumentsComponent } from "./hoadocuments/hoadocuments.component";
 import { HomeComponent } from "./home/home.component";
@@ -75,6 +76,11 @@ export const routes: Routes = [
 	{
 		path: "Events/MovieNight2021",
 		component: MovieNight2021Component,
+		data: { navLabel: false }
+	},
+	{
+		path: "Events/NewBranchTreeWayEntrance",
+		component: NewBranchTreeWayEntranceComponent,
 		data: { navLabel: false }
 	}
 ];
