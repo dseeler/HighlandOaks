@@ -14,6 +14,60 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "8/16/21",
+			title: "Comparison of Leasing Provisions Document",
+			html: `
+			<p>
+			Dear Highland Oaks Homeowners,
+			</p>
+			<p>
+			We have received feedback from some homeowners that seems to indicate some misunderstanding concerning the proposed  leasing provision. 
+			<b>Please read the Comparison of Leasing Provisions document</b> (found in the documents tab) for a comparison of our current covenants and 
+			the proposed changes.  <i>For over 91% of homeowners the change will be transparent and have NO impact.  All the existing Covenants regarding 
+			rules and enforcement remain identical.</i>  
+			</p>
+			<p>
+			Overall, our community <b><i>currently</i></b> has minimal issues with rental properties. We have properties that are being leased where 
+			renters keep beautiful yards or the owners are able to maintain the property to the standard that avoids violations. There have been several 
+			amazing renters living in our community. Some of them love our community and have become owners! These changes will have NO EFFECT on these renters 
+			other than ensure that their contact information is available to the HOA and the management company.  <i>However, as noted in this document the real 
+			estate environment is changing and we recognize that the current leasing provisions are both not being followed and will be insufficient in the 
+			future for keeping our community primarily a single family owned neighborhood.</i>
+			</p>
+			<p>
+			As always , if you want to discuss the details or have comments or questions, please forward those to the board so your questions may be answered and distributed to the whole community.
+			</p>
+			<p>
+			The voting ballot (aka the Consent Form) is also available under the Documents tab. Voting ends December 1, 2021.
+			</p>
+			<p>
+			Thank you!
+			</p>
+			<p>
+			The Highland Oaks Board of Directors
+			</p>
+			`
+		},
+		{
+			date: "8/16/21",
+			title: "Suspicious Activity",
+			html: `
+			<p>
+			Dear Highland Oaks Homeowners,
+			</p>
+			<p>
+			There has been some suspicious night time activity on the tennis observation deck. If you see anyone in the commons area after closing (10:00pm), 
+			please call the police. Do not approach anyone, please let the police handle it. I will be in contact with our COPS liaison tomorrow regarding 
+			this matter. Thank you! 
+			</p>
+			<p>
+			Chris Weaver
+			<br>
+			C.O.P.S Liaison Highland Oaks
+			</p>
+			`
+		},
+		{
 			date: "8/12/21",
 			title: "Ridge Road Clean Up; Volunteers Needed",
 			html: `
@@ -51,6 +105,55 @@ export class HomeComponent implements OnInit {
 			</p>
 			<p>
 			Guido Walther
+			</p>
+			`
+		},
+		{
+			date: "8/3/21",
+			title: "Newsletter and Amendment Change Proposal Information Available",
+			html: `
+			<p>
+			Dear Highland Oaks Homeowners,
+			</p>
+			<p>
+			The <a href="/assets/documents/HOA Winter 2021.pdf" target="_blank">newsletter</a> was emailed to all homeowners and is available on our website under the <a href="./Newsletters">Newsletter tab</a>. Please read it for 
+			information about upcoming events and our mid-year review.
+			</p>
+			<p>
+			We have also added the Questions and Answers from our POA meeting in May, as well as the Amendments changes and Consent Form under the Documents tab. Please review them.
+			<ul>
+			<li>
+			If you have any additional questions please send them to AMAG (admin@associationmgt.com) and we will provide answers to your questions before you make your decision.
+			</li>
+			<li>
+			If you have already submitted a form previously (emailed responses without Consent Form are not valid), you may change your vote by submitting a new form. The form with the latest date will be the one included in the final tally.
+			</li>
+			<li>
+			The deadline for voting is <b>December 1st 2021</b>.
+			</li>
+			<li>
+			Votes may be sent in three ways;  by mail to the address below, fax 678-407-1125,  or you may print the document and email to admin@associationmgt.com. All consent forms must have the signature of the homeowner.
+			<br><br>
+			Highland Oaks Homeowners Association, Inc.
+			<br>
+			c/o Association Management Advisory Group, Inc.
+			<br>
+			P.O. Box 491537
+			<br>
+			Lawrenceville, GA 30049
+			</li>
+			</ul>
+			
+			</p>
+			<p>
+			These forms and other information about our neighborhood may be found on our updated website at <a href="myhighlandoaks.com">myhighlandoaks.com</a>. Please note that you may need to refresh your browser to see the latest updates.
+			</p>
+			<p>
+			<b>
+			The Board of Directors fully supports adopting these changes and hope you will vote in support of them.
+			<br>
+			Thank you!
+			</b>
 			</p>
 			`
 		},
