@@ -14,6 +14,28 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "8/14/21",
+			title: "Amendment Voting",
+			html: `
+			<p>
+			Dear Homeowners,
+			</p>
+			<p>
+			Our Incentive to Vote Contest has ended. Thank you to all our homeowners who submitted their voting forms. As of 12/9, we received 87 votes 
+			(only 34% of homes). Although we had a goal to get as many votes as possible by December 1, you may still submit a vote at any time.
+			</p>
+			<p>
+			<b>Congratulations</b> to 1542 Teal Drive! You are the winner of the Week 4 drawing! Your $25 Kroger gift card will be delivered to your mailbox this week.
+			</p>
+			<p>
+			Please keep voting, we need to hear from ALL our homeowners. Consent (voting) form is attached. If you have questions about the amendments, please email admin@associationmgt.com.
+			</p>
+			<p>
+			Thank you!
+			</p>
+			`
+		},
+		{
 			date: "8/16/21",
 			title: "Comparison of Leasing Provisions Document",
 			html: `
