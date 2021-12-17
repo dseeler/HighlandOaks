@@ -14,7 +14,7 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
-			date: "8/14/21",
+			date: "12/14/21",
 			title: "Amendment Voting",
 			html: `
 			<p>
