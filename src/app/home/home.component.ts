@@ -14,6 +14,101 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "1/5/22",
+			title: "Recycling and Yard Waste Services are Suspended-",
+			html: `
+			<p>
+			Republic Services’ trash and recycling customers in unincorporated Gwinnett County can expect uninterrupted, on-schedule trash collection, but due to the significant impact that a spike in COVID-19 infections is having on Republic’s workforce, recycling services will be suspended until Republic’s workforce begins to normalize. Bulky items and yard waste pickup are also suspended temporarily.
+			</p>
+			<p>
+			During this temporary service interruption, Republic Services customers may take their recycling, bulky items, or household trash to a drop-off site at one of the following locations:
+			</p>
+			<ul>
+			<li>
+			Recyclable Materials Only – 75 Curtis Road, Lawrenceville, GA (6:00am – 6:00pm)
+			</li>
+			<li>
+			Household Trash/Bulky Items – 51 Patrick Mill Road SW, Winder, GA (Monday – Friday, 6:00am – 4:00pm; Saturday 6:00am – noon)
+			</li>
+			<li>
+			Household Trash/Bulky Items – Richland Creek Landfill, 5691 S Richland Creek Road, Buford, GA (Monday – Friday, 6:00am – 4:00pm; Saturday 6:00am – noon)
+			</li>
+			<li>
+			Household Trash/Bulky Items – Oak Grove Landfill, 937 Carl Bethlehem Road, Winder, GA (Monday – Friday, 6:00am – 4:00pm; Saturday 6:00am – noon)
+			</li>
+			</ul>
+			<p>
+			Republic Services provided the following message to its Gwinnett customers: We apologize for the inconvenience this temporary service interruption is causing residents. Like many industries all over the country, we are trying to manage a severe manpower shortage. The COVID Omicron variant continues to hit our operations hard; we currently have approximately 20 percent of our Gwinnett workforce on quarantine. There will continue to be temporary service disruptions for recycling, bulky materials, and yard waste in the coming days. We ask for and appreciate your patience as we work to get past these issues.
+			</p>
+			`
+		},
+		{
+			date: "1/5/22",
+			title: "Seasonal Reminders",
+			html: `
+			<ol>
+			<li>
+			All decorations must be removed within 30 days past the holiday.
+			</li>
+			<li>
+			Per our covenants, you are NOT allowed to burn yard waste. This does not include burning wood in fire pits or outdoor cooking.
+			</li>
+			<li>
+			DO NOT blow your yard debris and leaves into the street.  If you need to have your yard waste collected, please contact Gwinnett County Solid Waste Management at 770-822-7141. (Yard Waste and Recycling Collection is currently suspended).
+			</li>
+			<li>
+			If you have not received the HOA 2022 budget and your account statement yet, please contact AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> or 678-407-1115.
+			</li>
+			<li>
+			2022 Assessments (dues) are due on February 28, 2022. Interest accrues starting March 1. Late fees will be applied on March 11.
+			</li>
+			<li>
+			If you have not yet voted for the Changes to our Amendments, there is a ballot (consent form) attached. All information can be found on our website: <a href="myhighlandoaks.com">myhighlandoaks.com</a>. So far we have received only 88 votes.
+			</li>
+			<li>
+			Make 2022 your Year to Volunteer! We need people on the Board of Directors, Pool Committee, and Welcome Committee. Email <a href="mailto:HighlandOaksHOAPresident@gmail.com">HighlandOaksHOAPresident@gmail.com</a> to sign up.
+			</li>
+			</ol>
+			`
+		},
+		{
+			date: "1/4/22",
+			title: "HOA Board Members Wanted:",
+			html: `
+			<p>
+			We need people to serve our community by joining the Highland Oaks Board of Directors. We have 2 positions open and the term length is 2 years. If you are interested, please submit a short bio of yourself to be 
+			included on the 2022 ballot. Do you know someone who would be perfect in this position? Nominate them! People are unlikely to nominate themselves, but may be willing to serve if they are nominated by someone else. 
+			Please email all nominations to <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>.
+			<p>
+			`
+		},
+		{
+			date: "12/28/21",
+			title: "Holiday Décor Contest Winners!",
+			html: `
+			<p>
+			Thank you to everyone who participated in this year‘s decorating contest. It was wonderful to see everyone’s beautiful decorations. There were so many to choose and we look forward to seeing everyone’s next year!
+			</p>
+			<p>
+			The winners of our decorating contest are:
+			</p>
+			<ul>
+			<li>
+			927 Richmond Hill
+			</li>
+			<li>
+			1554 Highland Oaks Court
+			</li>
+			<li>
+			1652 Branch Tree Cove
+			</li>
+			</ul>
+			<p>
+			Winners will be given their prizes soon!
+			</p>			
+			`
+		},
+		{
 			date: "12/14/21",
 			title: "Amendment Voting",
 			html: `
@@ -28,10 +123,334 @@ export class HomeComponent implements OnInit {
 			<b>Congratulations</b> to 1542 Teal Drive! You are the winner of the Week 4 drawing! Your $25 Kroger gift card will be delivered to your mailbox this week.
 			</p>
 			<p>
-			Please keep voting, we need to hear from ALL our homeowners. Consent (voting) form is attached. If you have questions about the amendments, please email admin@associationmgt.com.
+			Please keep voting, we need to hear from ALL our homeowners. Consent (voting) form is attached. If you have questions about the amendments, please email <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>.
 			</p>
 			<p>
 			Thank you!
+			</p>
+			`
+		},
+		{
+			date: "11/23/21",
+			title: "Keep Voting!",
+			html: `
+			<p>
+			This is the last week to have your name entered into the Incentive to Vote Contest. See the attached voting ballot (consent form) and send it in asap. Instructions are listed at the bottom of the page.
+			</p>
+			<p>
+			Congratulations to 1478 Macy Lane! You are the winner of the Week 3 drawing! Your $25 Kroger gift card will be delivered to your mailbox this week.
+			</p>
+			<p>
+			Please keep voting, we need to hear from ALL our homeowners. Consent (voting) form is attached. We received 12 votes last week bringing the total number of votes to 56. ( Less than 22% of our homeowners). If you have questions about the amendments, please email admin@associationmgt.com.
+			</p>
+			<p>
+			Thank you!
+			</p>
+			`
+		},
+		{
+			date: "11/15/21",
+			title: "Clarification on POA law",
+			html: `
+			<p>			
+			Dear homeowners,
+			</p>
+			<p>
+			There have been several postings on Social media and an anonymous letter delivered to homes regarding the vote on the proposed amendments to the Covenants. We want you to be able to make an informed decision on this vote so we have provided some very important corrections and clarifications 
+			document for your serious consideration. This document can be found under the <a href="./HOADocuments">Documents tab</a>.
+			</p>
+			<p>
+			Thank You
+			</p>
+			`
+		},
+		{
+			date: "11/15/21",
+			title: "Please Vote!",
+			html: `
+			<p>
+			Congratulations to 802 Pinder Point Court! You are the winner of the Week 2 drawing! Your $25 Kroger gift card will be delivered to your mailbox this week.
+			</p>
+			<p>
+			Our week 1 winner has very generously asked us to donate their gift card to a hungry family. It will be donated to the Lawrenceville Co-op. https://lawrencevilleco-op.org/
+			</p>
+			<p>
+			Please keep voting, we need to hear from ALL our homeowners. Consent (voting) form is attached. We received 14 votes last week bringing the total number of votes to 44. ( Less than 17% of our homeowners). If you have questions about the amendments, please email admin@associationmgt.com.
+			</p>
+			<p>
+			Thank you!
+			</p>
+			`
+		},
+		{
+			date: "11/10/21",
+			title: "What’s the Latest News?",
+			html: `
+			<p>
+			The Fall/Winter 2021 newsletter has been delivered to all mailboxes and emailed to all homeowners. It is also available under the <a href="./Newsletters">Newsletters tab</a>.
+			</p>
+			`
+		},
+		{
+			date: "11/9/21",
+			title: "Volunteers Needed:",
+			html: `
+			<p>
+			Hello neighbors;
+			</p>
+			<p>
+			CLEANING NUMBER 4, Saturday November 13th . 
+			</p>
+			THIS IS THE LAST FOR THIS YEAR, I WILL POST THE ONES FOR NEXT YEAR EARLY 2022. If weather is not permitting the cleaning we will move the date by one week, please check the e-mail from the Association and the posting on the Facebook page.
+			<p>
+			We will meet at the pavilion at 8 AM and pick up trash between Buford Drive and Azalea through the Gwinnett Clean & Beautiful’ s Adopt-a-Road Program.
+			</p>
+			<p>
+			You get to meet old and new neighbors, have a nice workout and keep Ridge Road look nice AND you can proudly say you did something for your neighborhood.
+			</p>
+			<p>
+			If you are in High school you can earn some community service hours. Please make sure to bring your school’s form.
+			</p>
+			<p>
+			Please note that due to the program guidelines, children under 12 are not permitted to participate for safety reasons.
+			</p>
+			<p>
+			Please let me know if you can make it so we have enough supplies. Sign up by e-mail at  guido.walther@alvetern.com  
+			</p>
+			<p>
+			(we'll have bags and vests please make sure to wear sturdy shoes and bring a pair of gloves)
+			</p>
+			<img src="assets/images/announcements/adoptaroad.jpg" />			
+			<p>
+			​We're looking forward seeing you again and would love to see new faces…
+			</p>
+			<p>
+			Guido Walther
+			</p>
+			
+			`
+		},
+		{
+			date: "11/8/21",
+			title: "Please vote!",
+			html: `
+			<p>
+			Congratulations to 660 Branch Tree Way! You are the first winner of our drawing! Your $25 Kroger gift card will be delivered to your mailbox this week.
+			</p>			
+			<p>
+			Please keep voting, we need to hear from ALL our homeowners. All the following documents are available under the <a href="./HOADocuments">Documents tab</a>.
+			</p>
+			<ul>
+			<li>
+			Consent (voting) form
+			</li>
+			<li>
+			the Proposed Amendment Discussion from the May 2021 community-wide zoom informational meeting
+			</li>
+			<li>
+			the Question and Answer document from questions received during that meeting
+			</li>
+			<li>
+			a comparison of Leasing Provisions – what will change and why
+			</li>
+			<li>
+			the actual amendment (in legal form)
+			</li>
+			</ul>				
+			`
+		},
+		{
+			date: "11/5/21",
+			title: "Halloween Decorating Contest Winners!",
+			html: `			
+			<p>
+			We want to thank everyone who helped make Halloween in Highland Oaks super fun and spooky this year! There were so many awesome houses it was hard to choose winners. We hope everyone had fun and that your kids got way too much candy!
+			</p>
+			<p>						
+			The winners of Halloween decorating contest are:
+			</p>
+			<p>
+			927 Richmond Hill Court
+			</p>
+			<p>
+			1807 Richmond Hill Drive
+			</p>
+			<p>
+			1634 Crittenden Drive
+			</p>
+			1590 Highland Oaks Way
+			<p>
+			749 Teal Court
+			</p>
+			<p>
+			Your prizes will be delivered soon!
+			</p>
+			`
+		},
+		{
+			date: "11/5/21",
+			title: "Amendment Voting Incentive!",
+			html: `			
+			<p>
+			Hello Neighbors!
+			</p>
+			<p>
+			To encourage participation in this important vote, we are having a contest! While we highly encourage you to vote YES, it is not necessary to be included. We need 173 homes to vote favorably in order to adopt the changes to our amendments. As of today, we have 16 Yes votes, and 13 No votes.
+			</p>
+			<ol>
+			<li>
+			Supporting documentation and a consent (voting) form are available under the <a href="./HOADocuments">Documents tab</a>
+			</li>
+			<li>
+			The amendment changes are based on the expert legal advice from our lawyer.
+			</li>
+			<li>
+			There is misinformation on Facebook, if you have questions, please send an email to admin@associationmgt.com.
+			</li>
+			<li>
+			If you previously voted no, and after considering additional information have changed your mind, you may send an updated Consent Form.
+			</li>
+			<li>
+			Winners will be drawn on Fridays and announced the following Monday.
+			</li>
+			</ol>
+			<img src="assets/images/announcements/votegraphic.jpg" />
+			`
+		},
+		{
+			date: "10/22/21",
+			title: "Nearby Crime",
+			html: `
+			<p>
+			Highland Oaks,
+			</p>
+			<p>
+			Please review the below information from Gwinnett County Police:
+			</p>
+			<p>
+			There have been an uptick in catalytic converter thefts in the Lawrenceville and Buford areas. These thefts are occurring overnight. Please tell your members to keep an eye out and if they see something that looks out of place to immediately call 911. It is not recommended that they approach these subjects, but get a good description of the person and a direction of travel if they leave.
+			</p>
+			<p>
+			Thank you,
+			</p>			
+			<p>
+			Highland Oaks Board of Directors
+			</p>
+			`
+		},
+		{
+			date: "10/7/21",
+			title: "Movie Night!",
+			html: `
+			<p>
+			Dear Highland Oaks Residents,
+			</p>
+			<p>
+			Please join us October 23 for a movie night on the lawn by the pavilion. We will be watching Hotel Transylvania! Please bring a blanket or a chair! The movie will start promptly at 7:30 PM.
+			</p>
+			<p>
+			We will also be having a house decorating contest! Homes will be judged on October 30th and the winning announcement will be made on November 1st!
+			</p>
+			<p>
+			We look forward to seeing everyone and viewing their spooky homes!
+			</p>
+			<p>
+			Highland Oaks Social Committee
+			</p>
+			<img src="assets/images/announcements/movienight.png" />
+			`
+		},
+		{
+			date: "10/7/21",
+			title: "Parking Lot Paving",
+			html: `
+			<p>
+			Dear Neighbors,
+			</p>
+			<p>
+			The parking lot will be sealed this coming Sunday Oct 10. The lot will be blocked off early Sunday morning and will not be open for any vehicle parking all day Sunday and most of the day Monday Oct. 11th.  This is the second phase of our parking repaving project begun last year as recommended by our repaving company. Painting to mark parking spaces will occur later next week. 
+			</p>
+			<p>
+			Please REMOVE any vehicles that are in the amenity parking area  before Sunday and DO NOT PARK any vehicle Saturday night the 9th or you WILL BE TOWED! 
+			</p>
+			`
+		},
+		{
+			date: "9/27/21",
+			title: "Neighborhood-Wide Garage Sale!",
+			html: `
+			<p>
+			We will be posting banners at the entrances to advertise our sales. Please add your own signage to direct people to your homes.
+			</p>
+			<img src="assets/images/announcements/garagesale.png" />
+			`
+		},
+		{
+			date: "9/9/21",
+			title: "C.O.P.S. Meeting",
+			html: `
+			<p>
+			Dear Highland Oaks Residents,
+			</p>
+			<p>
+			We had a great C.O.P.S. meeting last night with Officer Joseph. If you missed it, please see the PowerPoint presentation under the <a href="./HOADocuments">Documents tab</a>. Other points not included in presentation:
+			</p>
+			<ul>
+			<li>
+			Please attend the 2021 Public Safety Fall Festival on 11/13 10am-2pm at Coolray Field
+			</li>
+			<li>
+			There are many free classes being offered: RADD – a self-defense class for women, the Citizens Police Academy, and Police Explorers for 14-17 year olds
+			</li>
+			<li>
+			Officer Joseph is offering free home security reviews – contact him to make an appointment
+			</li>
+			<li>
+			Contact Chris Weaver at Christineweaver@bellsouth.net or Officer Joseph at Fed.Joseph@GwinnettCounty.com with any questions.
+			</li>
+			<li>
+			</li>
+			</ul>
+			<p>
+			Thank you
+			</p>
+			`
+		},
+		{
+			date: "9/9/21",
+			title: "Pool Closure",
+			html: `
+			<p>
+			Hello Homeowners!
+			</p>
+			<p>
+			We hope you have enjoyed the pool this season! Since the heat is holding and many people are still enjoying the pool, we plan to keep it open as long as possible. Please note:
+			</p>
+			<ul>
+			<li>
+			We no longer have lifeguard services.
+			</li>
+			<li>
+			The pool will still be cleaned 3 times a week, but that does not include the bathrooms.
+			</li>
+			<li>
+			Please report any maintenance issues asap to highlandoakspresident@gmail.com.
+			</li>
+			<li>
+			Please respect the rules. If rules are broken, the pool will be closed sooner.
+			</li>
+			<li>
+			The last day to enjoy the pool is 9/26.
+			</li>
+			<li>
+			We are always looking for Pool Committee members. If you would like to join, please email highlandoakspresident@gmail.com
+			</li>
+			</ul>
+			<p>
+			Thank you!
+			</p>
+			<p>
+			The Highland Oaks Board of Directors
 			</p>
 			`
 		},
@@ -44,7 +463,7 @@ export class HomeComponent implements OnInit {
 			</p>
 			<p>
 			We have received feedback from some homeowners that seems to indicate some misunderstanding concerning the proposed  leasing provision. 
-			<b>Please read the Comparison of Leasing Provisions document</b> (found in the documents tab) for a comparison of our current covenants and 
+			<b>Please read the Comparison of Leasing Provisions document</b> (found in the <a href="./HOADocuments">Documents tab</a>) for a comparison of our current covenants and 
 			the proposed changes.  <i>For over 91% of homeowners the change will be transparent and have NO impact.  All the existing Covenants regarding 
 			rules and enforcement remain identical.</i>  
 			</p>
@@ -60,7 +479,7 @@ export class HomeComponent implements OnInit {
 			As always , if you want to discuss the details or have comments or questions, please forward those to the board so your questions may be answered and distributed to the whole community.
 			</p>
 			<p>
-			The voting ballot (aka the Consent Form) is also available under the Documents tab. Voting ends December 1, 2021.
+			The voting ballot (aka the Consent Form) is also available under the <a href="./HOADocuments">Documents tab</a>. Voting ends December 1, 2021.
 			</p>
 			<p>
 			Thank you!
@@ -142,7 +561,7 @@ export class HomeComponent implements OnInit {
 			information about upcoming events and our mid-year review.
 			</p>
 			<p>
-			We have also added the Questions and Answers from our POA meeting in May, as well as the Amendments changes and Consent Form under the Documents tab. Please review them.
+			We have also added the Questions and Answers from our POA meeting in May, as well as the Amendments changes and Consent Form under the <a href="./HOADocuments">Documents tab</a>. Please review them.
 			<ul>
 			<li>
 			If you have any additional questions please send them to AMAG (admin@associationmgt.com) and we will provide answers to your questions before you make your decision.
@@ -306,7 +725,7 @@ export class HomeComponent implements OnInit {
 			title: `POA Presentation`,
 			html: `
 			<p>
-				We have added the POA information documents to the documents tab. Please email AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> if you have any questions.
+				We have added the POA information documents to the <a href="./HOADocuments">Documents tab</a>. Please email AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> if you have any questions.
 				<br />
 				Thank you!
 			</p>
@@ -320,7 +739,7 @@ export class HomeComponent implements OnInit {
 				Dear Highland Oaks Residents,
 			</p>
 			<p>
-				Our POA informational meeting is this Saturday, May 1, at 10:00am. Please review the Amendments and Consent form under the documents tab. If you have any questions that you would like addressed during the meeting, please email them to <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>. The link for the zoom meeting is below. We hope to see you then. 
+				Our POA informational meeting is this Saturday, May 1, at 10:00am. Please review the Amendments and Consent form under the <a href="./HOADocuments">Documents tab</a>. If you have any questions that you would like addressed during the meeting, please email them to <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>. The link for the zoom meeting is below. We hope to see you then. 
 			</p>
 			<p>
 				<a href="https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09">https://us02web.zoom.us/j/88446642137?pwd=YXhSNnBpbzFFOFVwaDdycWxDTUN6UT09</a>
@@ -369,7 +788,7 @@ export class HomeComponent implements OnInit {
 				Dear Neighbors,
 			</p>
 			<p>
-				Happy Spring! Now that the weather is warmer, many residents are making changes to the exterior of their homes. Please remember that ANY exterior change, such as painting, changing your landscaping, or adding a fence requires a Modification Request Form to be submitted to our Architectural Review Committee. For your convenience, the MRF is available under the documents tab. The very helpful ARC Guidelines and the Covenant Highlights are also available. Please review these documents as they have recently been updated.
+				Happy Spring! Now that the weather is warmer, many residents are making changes to the exterior of their homes. Please remember that ANY exterior change, such as painting, changing your landscaping, or adding a fence requires a Modification Request Form to be submitted to our Architectural Review Committee. For your convenience, the MRF is available under the <a href="./HOADocuments">Documents tab</a>. The very helpful ARC Guidelines and the Covenant Highlights are also available. Please review these documents as they have recently been updated.
 			</p>
 			<p>
 				If you have any questions, please reach out to our AMAG (our management company) at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a> or 678-407-1115.
@@ -384,7 +803,7 @@ export class HomeComponent implements OnInit {
 			title: `HOA 2020 Recap`,
 			html: `
 			<p>
-				Did you miss the annual meeting? If so, the slide presentation is available under the documents tab.
+				Did you miss the annual meeting? If so, the slide presentation is available under the <a href="./HOADocuments">Documents tab</a>.
 				The association will send out the POA and other amendment documentation at a later date. 
 			</p>
 			<p>
