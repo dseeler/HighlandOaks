@@ -131,6 +131,13 @@ export class HomeComponent implements OnInit {
 			`
 		},
 		{
+			date: "12/13/21",
+			title: "Holiday Decorating Contest",
+			html: `
+			<img src="assets/images/announcements/holidaydecoratingcontest.png" />			
+			`
+		},
+		{
 			date: "11/23/21",
 			title: "Keep Voting!",
 			html: `
