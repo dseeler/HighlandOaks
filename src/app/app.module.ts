@@ -20,6 +20,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { EasterColoringContest2021Component } from './events/easter-coloring-contest2021/easter-coloring-contest2021.component';
 import { MovieNight2021Component } from './events/movie-night2021/movie-night2021.component';
 import { NewBranchTreeWayEntranceComponent } from './events/new-branch-tree-way-entrance/new-branch-tree-way-entrance.component';
+import { HolidayDecorWinners2021Component } from "./events/holiday-decor-winners2021/holiday-decor-winners2021.component";
 
 @NgModule({
 	declarations: [
@@ -40,7 +41,8 @@ import { NewBranchTreeWayEntranceComponent } from './events/new-branch-tree-way-
 		CalendarComponent,
 		EasterColoringContest2021Component,
 		MovieNight2021Component,
-		NewBranchTreeWayEntranceComponent
+		NewBranchTreeWayEntranceComponent,
+		HolidayDecorWinners2021Component
 	],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],

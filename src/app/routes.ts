@@ -2,6 +2,7 @@ import { Routes } from "@angular/router";
 import { AboutComponent } from "./about/about.component";
 import { CalendarComponent } from "./calendar/calendar.component";
 import { CommitteesComponent } from "./committees/committees.component";
+import { HolidayDecorWinners2021Component } from "./events/holiday-decor-winners2021/holiday-decor-winners2021.component";
 import { EasterColoringContest2021Component } from "./events/easter-coloring-contest2021/easter-coloring-contest2021.component";
 import { EventsComponent } from "./events/events.component";
 import { HouseDecorationComponent } from "./events/housedecoration/housedecoration.component";
@@ -81,6 +82,11 @@ export const routes: Routes = [
 	{
 		path: "Events/NewBranchTreeWayEntrance",
 		component: NewBranchTreeWayEntranceComponent,
+		data: { navLabel: false }
+	},
+	{
+		path: "Events/HolidayDecorWinners2021",
+		component: HolidayDecorWinners2021Component,
 		data: { navLabel: false }
 	}
 ];
