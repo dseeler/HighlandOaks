@@ -14,6 +14,63 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "2/11/22",
+			title: "Highland Oaks Annual Homeowners’ Meeting",
+			html: `
+			<p>
+			<b>
+			Highland Oaks Annual Homeowners’ Meeting
+			<br>
+			Saturday, February 12, 2022 at 11:00 am
+			<br>
+			Location:  Zoom
+			</b>
+			</p>
+			<p>
+			Join Zoom Meeting
+			<br>
+			<a href="https://us02web.zoom.us/j/86796490337?pwd=ZG5OMGEwUFdmTGhrUVBETFVZZGRyUT09">https://us02web.zoom.us/j/86796490337?pwd=ZG5OMGEwUFdmTGhrUVBETFVZZGRyUT09</a>
+			</p>
+			<p>
+			Meeting ID: 867 9649 0337
+			<br>
+			Passcode: 033556
+			<br>
+			Dial: 1 301 715 8592
+			</p>
+			<p>
+			All homeowners are encouraged to attend the Annual Meeting, being held via Zoom, due to Covid-19.  In order to determine that we have a valid quorum of homeowners for voting purposes, everyone must sign-in to the meeting with their actual name, rather than screen names. Anonymous logins will not be allowed to enter the zoom meeting.
+			</p>
+			<p>
+			If you have specific questions that you would like to have addressed during the meeting, please email your questions to AMAG <b>TODAY</b> by 5:00PM.
+			</p>
+			<p>
+			As this is a virtual meeting, your ballot must be returned by e-mail to: Admin@AssociationMgt.com or fax: 678-407-1125 <b>TODAY</b> by 5:00 PM.
+			</p>
+			`
+		},
+		{
+			date: "1/31/22",
+			title: "Upcoming Annual Homeowners' Meeting",
+			html: `
+			<p>
+			Hello Highland Oaks Homeowners,
+			</p>
+			<p>
+			Mark your calendars for our Annual Meeting via zoom on <b>February 12 at 11:00am</b>. Login information is listed on the attachment and will be emailed to all homeowners prior to the meeting.
+			</p>
+			<p>
+			<b>To clarify how voting and proxy votes work:</b> The only item on the agenda that requires a vote is the election of new Board members. Since the meeting is virtual all votes are being collected by mail, email, or fax. Therefore, there is no need to designate a named proxy on the form. You can leave that space blank. 
+			</p>
+			<p>
+			To make the election official, we need 65 votes to reach a quorum (25% of eligible Homeowners), so we encourage everyone to please complete the reverse side of the form (Ballot 2022) with your vote for Board Members, and return it whether you are planning to attend the Zoom meeting or not. All responses must be received by February 11.
+			</p>
+			<p>
+			There are 2 positions on the Board of Directors open. If you are interested in joining the Board, please use the blank spaces provided to nominate yourself as a write-in candidate.
+			</p>
+			`
+		},
+		{
 			date: "1/5/22",
 			title: "Recycling and Yard Waste Services are Suspended-",
 			html: `
