@@ -14,6 +14,68 @@ interface Announcement {
 export class HomeComponent implements OnInit {
 	public annoucements: Announcement[] = [
 		{
+			date: "4/16/22",
+			title: "Calendar of Events 2022",
+			html: `
+			<p>
+			We are happy to announce the new 2022 calendar of events for our neighborhood. Please review them and RSVP when required. 
+			</p>
+			<ul>
+			<li>
+			May 21 - Spring Cleaning and Dumpster Day (all weekend) - Spring is here, and time to clean house. There will be a large 
+			dumpster in the pool parking lot to allow homeowners to do some spring cleaning and bring items to the trash.  Please RSVP 
+			by May 1st to <a href="mailto:lesliemshafer@yahoo.com">lesliemshafer@yahoo.com</a> if you are interested. This will allow 
+			us to know the size of the dumpster required.  
+			</li>
+			<li>
+			May 28 - End of School Party at Pool Pavilion (1-3 pm) - Music at the pool and Bingo during the "adult swim" breaks. We 
+			will have treats for everyone and play Bingo for small prizes.       
+			</li>
+			<li>
+			June 18th - Neighborhood Garage Sale with Craft/Trade Fair at the Pavilion. You must RSVP by May 29th if you want to 
+			participate. We invite all kids and adults to bring crafts or products to sell. You can set up a table to sell anything 
+			from wreaths to home-baked treats, lemonade, homemade crafts, etc. And if you have your own business, you can set up a 
+			table and pass out fliers and/or giveaways. This will also be a neighborhood-wide garage sale day. We will hand out maps 
+			at the Pavilion showing all garage sale locations in the neighborhood. We will advertise outside the area to get as many 
+			visitors as possible. Please RSVP to <a href="mailto:lesliemshafer@yahoo.com">lesliemshafer@yahoo.com</a> if you are interested. 
+			</li>
+			<li>
+			July 4th - Evening Cook Out at Pavilion (6-8 pm) - Hang out with neighbors and family at the Pavilion. We will have a grill set 
+			up for hotdogs and burgers. This is a potluck, too, so please bring a side or dessert to share.  If anyone is interested in bringing 
+			fireworks, please let us know.  Please RSVP before June 18th to <a href="mailto:lesliemshafer@yahoo.com">lesliemshafer@yahoo.com</a> if you are interested.  
+			</li>
+			<li>
+			August 6th - Back to School Party at Pavilion - More details to come.  
+			</li>
+			<li>
+			September - Chili Cook-Off - More details to come.  
+			</li>
+			<li>
+			October - We will continue with our Halloween decoration awards. 
+			</li>
+			<li>
+			November - Charity Food Drive Collection. 
+			</li>
+			<li>
+			December - We will continue with our Christmas decoration awards. 
+			</li>
+			<li>
+			December - Ladies Cookie Exchange
+			</li>
+			</ul>
+			`
+		},
+		{
+			date: "4/16/22",
+			title: "Pickleball",
+			html: `
+			<p>
+			Highland Oaks new pickleball courts are now open at the tennis courts. Come join the fun!
+			</p>
+			<img src="assets/images/announcements/pickleball.jpg" />			
+			`
+		},
+		{
 			date: "2/11/22",
 			title: "Highland Oaks Annual Homeowners’ Meeting",
 			html: `
