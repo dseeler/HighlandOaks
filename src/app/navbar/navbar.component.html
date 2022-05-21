@@ -13,7 +13,7 @@
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item" *ngFor="let route of navRoutes">
+        <li class="nav-item" *ngFor="let route of navRoutes" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
           <a class="nav-link" [routerLink]="route.path" (click)="isMenuCollapsed = true">{{ route.data.navLabel }}</a>
         </li>
       </ul>
