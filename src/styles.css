@@ -12,6 +12,8 @@ app-root {
 	--white: white;
 	--bg: lightgray;
 	--shadow: rgba(0, 0, 0, 0.2);
+	overflow-x: hidden;
+	min-width: 300px;
 }
 
 app-root {
@@ -29,11 +31,30 @@ app-root {
 }
 
 h1 {
-	font: 72px Times;
+	font: 2.5rem Times;
 	color: var(--primary);
 	text-shadow: 0 0 3px var(--shadow);
 	text-align: center;
 	margin: 0;
+}
+
+a, li {
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 500px) {
+	nav {
+        display: none;
+    }
+	.banner {
+		margin-top: 63px;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	app-navbar {
+        display: none;
+    }
 }
 
 nav {
@@ -87,6 +108,7 @@ main {
 	text-align: center;
 	flex: 1 0 auto;
 	margin: 10px;
+	max-width: 100%; 
 }
 
 article {
@@ -106,8 +128,8 @@ article {
 }
 
 img {
-	max-width: 90vw;
-	max-height: 90vh;
+	max-width: 100%;
+	max-height: 100%;
 	border: 2px solid var(--primary);
 }
 
@@ -158,4 +180,16 @@ app-footer {
 	flex-shrink: 0;
 	box-sizing: border-box;
 	text-align: center;
+}
+
+
+#calendar {
+	width: 100%;
+	height: 100%;
+	max-width: 800px;
+	max-height: 600px;
+}
+
+#nav-brand-logo {
+	font-family: 'Kaisei Tokumin', serif;
 }

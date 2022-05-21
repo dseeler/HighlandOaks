@@ -1,8 +1,13 @@
+<app-navbar></app-navbar>
+
+
+
 <header>
   <div class="banner">
     <!-- <h1>Highland Oaks</h1> -->
   </div>
 </header>
+
 <nav>
   <ul>
     <li *ngFor="let route of navRoutes">
@@ -10,6 +15,7 @@
     </li>
   </ul>
 </nav>
+
 <main>
   <router-outlet></router-outlet>
 </main>

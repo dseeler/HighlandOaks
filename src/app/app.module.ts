@@ -22,6 +22,7 @@ import { MovieNight2021Component } from './events/movie-night2021/movie-night202
 import { NewBranchTreeWayEntranceComponent } from './events/new-branch-tree-way-entrance/new-branch-tree-way-entrance.component';
 import { HolidayDecorWinners2021Component } from "./events/holiday-decor-winners2021/holiday-decor-winners2021.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavbarComponent } from "./navbar/navbar.component";
 
 @NgModule({
 	declarations: [
@@ -43,7 +44,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 		EasterColoringContest2021Component,
 		MovieNight2021Component,
 		NewBranchTreeWayEntranceComponent,
-		HolidayDecorWinners2021Component
+		HolidayDecorWinners2021Component,
+		NavbarComponent
 	],
 	imports: [BrowserModule, AppRoutingModule, NgbModule],
 	providers: [],
