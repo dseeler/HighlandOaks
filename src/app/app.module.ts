@@ -21,6 +21,7 @@ import { EasterColoringContest2021Component } from './events/easter-coloring-con
 import { MovieNight2021Component } from './events/movie-night2021/movie-night2021.component';
 import { NewBranchTreeWayEntranceComponent } from './events/new-branch-tree-way-entrance/new-branch-tree-way-entrance.component';
 import { HolidayDecorWinners2021Component } from "./events/holiday-decor-winners2021/holiday-decor-winners2021.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
 	declarations: [
@@ -44,7 +45,7 @@ import { HolidayDecorWinners2021Component } from "./events/holiday-decor-winners
 		NewBranchTreeWayEntranceComponent,
 		HolidayDecorWinners2021Component
 	],
-	imports: [BrowserModule, AppRoutingModule],
+	imports: [BrowserModule, AppRoutingModule, NgbModule],
 	providers: [],
 	bootstrap: [AppComponent]
 })
