@@ -1,9 +1,10 @@
 <article>
-  <h1>Announcements</h1>
+  <h2 class="page-title">Announcements</h2>
 </article>
+
 <article>
-  <h2>📌 Pinned Announcement</h2>
-  <div><p>
+  <h4 class="announcement-title">📌 Pinned Announcement</h4>
+  <div><p class="announcement-body">
     The Highland Oaks Board of Directors shares information with homeowners via this website and our newsletters.
     Newsletters and other pertinent information are emailed to all residents via our management company.
     Please ensure that your correct email is on file with AMAG.
@@ -11,8 +12,8 @@
     If you are not receiving our email blasts, please email AMAG at <a href="mailto:admin@associationmgt.com">admin@associationmgt.com</a>.
   </p></div>
 </article>
-<article *ngFor="let ann of annoucements">
-  <h5>{{ ann.date }}</h5>
-  <h2>{{ ann.title }}</h2>
-  <div [innerHTML]="ann.html"></div>
+<article *ngFor="let ann of annoucements" class="announcement">
+  <h6 class="announcement-date">{{ ann.date }}</h6>
+  <h4 class="announcement-title">{{ ann.title }}</h4>
+  <div class="announcement-body" [innerHTML]="ann.html"></div>
 </article>

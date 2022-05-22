@@ -30,7 +30,7 @@ app-root {
 	background-size: contain;
 }
 
-h1 {
+h1, h2, h3 {
 	font: 2.5rem Times;
 	color: var(--primary);
 	text-shadow: 0 0 3px var(--shadow);
@@ -48,6 +48,10 @@ a, li {
     }
 	.banner {
 		margin-top: 63px;
+	}
+
+	.page-title {
+		font-size: 35px !important;
 	}
 }
 
@@ -201,4 +205,30 @@ app-footer {
 
 th,td {
     word-wrap: break-word;
+}
+
+#pinned-announcement {
+	text-align: center;
+}
+.announcement {
+
+}
+
+.announcement-title{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.announcement-date {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.announcement-body {
+	padding: 0 10px 0 20px;
+}
+
+.page-title {
+	font-size: 35px;
+	padding: 0 20px 0 20px;
 }

@@ -1,13 +1,12 @@
+<!-- Mobile Nav -->
 <app-navbar></app-navbar>
-
-
 
 <header>
   <div class="banner">
-    <!-- <h1>Highland Oaks</h1> -->
   </div>
 </header>
 
+<!-- Desktop Nav -->
 <nav>
   <ul>
     <li *ngFor="let route of navRoutes">
@@ -19,4 +18,5 @@
 <main>
   <router-outlet></router-outlet>
 </main>
+
 <app-footer></app-footer>
