@@ -17,4 +17,11 @@ export class NavbarComponent implements OnInit {
   public routes = routes;
 	public navRoutes = routes.filter(r => r.data.navLabel);
   public isMenuCollapsed = true;
+
+  HeaderController($scope, $location) 
+{ 
+    $scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
+}
 }
